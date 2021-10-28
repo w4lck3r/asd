@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tp-iterateurs &#8212; Module tp-iterateur 0 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="listiterator.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="listiterator.html" title="&lt;no title&gt;"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Module tp-iterateur 0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tp-iterateurs</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="tp-iterateurs">
+<h1>tp-iterateurs<a class="headerlink" href="#tp-iterateurs" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="etat-du-tp">
+<h2>Etat du TP<a class="headerlink" href="#etat-du-tp" title="Permalink to this headline">¶</a></h2>
+<p>SALMI Badr-eddine
+TARMELIT Lydia</p>
+</div>
+<div class="section" id="reponses-aux-questions">
+<h2>Réponses aux questions<a class="headerlink" href="#reponses-aux-questions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="question-3-2-4-1">
+<h3>Question 3.2.4.1<a class="headerlink" href="#question-3-2-4-1" title="Permalink to this headline">¶</a></h3>
+<p>L’élement supprimé est le dernier renvoyer par next c’est a dire l’élement précedant l’itérateur apres il sera le prev et le next</p>
+</div>
+<div class="section" id="question-3-2-4-3">
+<h3>Question 3.2.4.3<a class="headerlink" href="#question-3-2-4-3" title="Permalink to this headline">¶</a></h3>
+<p>On interdit l’appel à deux remove successifs sans next entre deux parceque on risque de supprimer head of the list ce qui est interdit
+Question 3.2.4.4
+————-</p>
+<p>Pour supprimer tout les élements  :</p>
+<dl class="simple">
+<dt>while iterateur.next() :</dt><dd><p>iterateur.remove()</p>
+</dd>
+</dl>
+<p>autant de fois qu’il y a d’élements dans la liste on suprime l’element</p>
+</div>
+<div class="section" id="question-3-2-5-3">
+<h3>Question 3.2.5.3<a class="headerlink" href="#question-3-2-5-3" title="Permalink to this headline">¶</a></h3>
+<img alt="_images/tp-iterateur.png" src="_images/tp-iterateur.png" />
+<p>On remarque qu’en utilisant get, le temps d’accés à tout les élements d’une liste augmente de manière exponentielle par rapport au nombre d’élements, alors que l’accès en utilisant uniquement l’itérateur demande un négligeable.
+Il est donc plus efficace d’accéder aux élements en utilisant l’itérateur</p>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="#">
+              <img class="logo" src="_static/logo_FIL.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">tp-iterateurs</a><ul>
+<li><a class="reference internal" href="#etat-du-tp">Etat du TP</a></li>
+<li><a class="reference internal" href="#reponses-aux-questions">Réponses aux questions</a><ul>
+<li><a class="reference internal" href="#question-3-2-4-1">Question 3.2.4.1</a></li>
+<li><a class="reference internal" href="#question-3-2-4-3">Question 3.2.4.3</a></li>
+<li><a class="reference internal" href="#question-3-2-5-3">Question 3.2.5.3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="listiterator.html"
+                        title="next chapter">&lt;no title&gt;</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="listiterator.html" title="&lt;no title&gt;"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">Module tp-iterateur 0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">tp-iterateurs</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2015-2021, SALMI Badr eddine TARMELIT Lydia , Univ. Lille.
+      Last updated on 29/03/2021.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.4.3.
+    </div>
+  </body>
+</html>
